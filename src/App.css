@@ -93,7 +93,10 @@
 .wave-container {
   position: relative;
   width: 100%;
-  /* overflow: hidden; */
+  z-index: auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .wave-prop {
@@ -101,7 +104,7 @@
   /* top: 5rem; */
   left: 0;
   width: 200%;
-  animation: wave linear 3s infinite;
+  animation: wave linear 6s infinite;
 }
 
 .wave-prop-bottom {
@@ -109,28 +112,16 @@
   top: -12rem;
   width: 100%;
   bottom: 42rem;
-  animation: wave linear 3s infinite;
+  animation: wave linear 15s infinite;
 }
 
 .wave-prop-bottom-2 {
   position: absolute;
-  /* top: -12rem; */
-  width: 200%;
-  height: 100%;
-  /* bottom: 42rem; */
-  animation: wave-lr linear 3s infinite;
+  left: 0;
+  z-index: 1;
 }
 
 @keyframes wave {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
-}
-
-@keyframes wave-lr {
   0% {
     transform: translateX(0);
   }
