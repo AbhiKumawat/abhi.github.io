@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+#intro {
+  position: absolute;
+  margin-top: 11%;
+  margin-left: 36%;
+  background-repeat: no-repeat;
+  z-index: 1;
+  width: 37%;
+  height: auto;
+}

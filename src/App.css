@@ -2,9 +2,62 @@
   text-align: center;
 }
 
+/* .wave1 {
+  background-image: url('./assets/Wave.svg');
+  background-size: cover;
+} */
+
+.background-props { 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pos-abs {
+  position: absolute;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.intro-name {
+  position: absolute;
+  height: 315px;
+  left: 33.96%;
+  right: 26.94%;
+  top: calc(50% - 315px/2 - 161.5px);
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 150px;
+
+  color: #191C24;
+}
+
+.z-ind-1 {
+  z-index: -1;
+}
+
+.social-icon {
+  resize: horizontal;
+  overflow: hidden;
+  width: 10%;
+  height: auto;
+}
+
+.mtop-5 {
+  margin-top: 5%;
+}
+
 .App-logo {
-  height: 40vmin;
   pointer-events: none;
+  /* height: 35vmin; */
+  width: 30%;
+  pointer-events: none;
+  margin-top: 8%;
+  margin-left: 6%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -29,10 +82,59 @@
 }
 
 @keyframes App-logo-spin {
-  from {
+  /* from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  } */
+}
+
+.wave-container {
+  position: relative;
+  width: 100%;
+  /* overflow: hidden; */
+}
+
+.wave-prop {
+  position: absolute;
+  /* top: 5rem; */
+  left: 0;
+  width: 200%;
+  animation: wave linear 3s infinite;
+}
+
+.wave-prop-bottom {
+  position: absolute;
+  top: -12rem;
+  width: 100%;
+  bottom: 42rem;
+  animation: wave linear 3s infinite;
+}
+
+.wave-prop-bottom-2 {
+  position: absolute;
+  /* top: -12rem; */
+  width: 200%;
+  height: 100%;
+  /* bottom: 42rem; */
+  animation: wave-lr linear 3s infinite;
+}
+
+@keyframes wave {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes wave-lr {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
   }
 }
