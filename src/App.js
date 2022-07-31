@@ -1,5 +1,6 @@
 import './App.css';
-
+import escobarLine1 from './assets/escobar_lines1.svg';
+import ppf from './assets/PPF.svg';
 // import Button from './components/button/button'; 
 /* State mangement
   RxJS
@@ -8,12 +9,6 @@ import './App.css';
 function App() {
   return (
     <div>
-      {/* <img className="background-props pos-abs" src={wave1} alt=""></img>
-      <img className="background-props pos-abs" src={wave2} alt=""></img>
-       <img className="background-props pos-abs" src={wave3} alt=""></img>
-      <img className="background-props pos-abs" src={wave4} alt=""></img> */}
-
-
       <div className="wave-container">
         <svg className="wave-prop" viewBox="0 0 1440 77" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g>
@@ -60,11 +55,8 @@ function App() {
       </svg>
       </div> 
 
-
-    
-
-
-      {/* <img className='background-props pos-abs z-ind-1' src={escobarLine1} alt=""></img> */}     
+      <img className='background-props pos-abs z-ind-1' src={escobarLine1} alt=""></img>     
+      <img className='background-props pos-abs ppf' src={ppf} alt=""></img>     
     </div> 
   );
 }

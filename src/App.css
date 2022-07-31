@@ -10,6 +10,9 @@
 .background-props { 
   background-repeat: no-repeat;
   background-size: cover;
+  position: absolute;
+  width: 100%;
+  top: 0;
 }
 
 .pos-abs {
@@ -18,6 +21,12 @@
 
 .pos-rel {
   position: relative;
+}
+
+.ppf{
+  width: 30%;
+  margin-top: 9%;
+  margin-left: 5%;
 }
 
 .intro-name {
@@ -104,7 +113,7 @@
   /* top: 5rem; */
   left: 0;
   width: 200%;
-  animation: wave linear 6s infinite;
+  animation: wave linear 15s infinite;
 }
 
 .wave-prop-bottom {
