@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/abhi.github.io/static/css/main.604d4b9e.css",
+    "main.js": "/abhi.github.io/static/js/main.a7a70eed.js",
+    "static/media/PPF.svg": "/abhi.github.io/static/media/PPF.f046a92b857a873f729e717b881a640d.svg",
+    "static/media/instagram.svg": "/abhi.github.io/static/media/instagram.9aa4f232d86024bd71b6fdc1d0ed8ca8.svg",
+    "static/media/escobar_lines1.svg": "/abhi.github.io/static/media/escobar_lines1.557b2a9c10575b20770dec4f691f9ac9.svg",
+    "static/media/spotify.svg": "/abhi.github.io/static/media/spotify.0cc9c493881a0062b0f1687377b52121.svg",
+    "static/media/linkedin.svg": "/abhi.github.io/static/media/linkedin.dc8af82af54aa703812dcb30fdd39b61.svg",
+    "static/media/twitter.svg": "/abhi.github.io/static/media/twitter.3c691a6fa91eb918cc2473c2706d4518.svg",
+    "index.html": "/abhi.github.io/index.html",
+    "main.604d4b9e.css.map": "/abhi.github.io/static/css/main.604d4b9e.css.map",
+    "main.a7a70eed.js.map": "/abhi.github.io/static/js/main.a7a70eed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.604d4b9e.css",
+    "static/js/main.a7a70eed.js"
+  ]
+}
