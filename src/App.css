@@ -1,3 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-roboto: "Roboto Slab", serif;
+  --font-raleway: "Raleway", sans-serif;
+}
+
+body {
+  font-family: var(--font-roboto);
+  background-color: #182334;
+  /*color: aliceblue;*/
+}
+
+.app {
+  padding: 4rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .App {
   text-align: center;
 }
@@ -49,13 +78,6 @@
   z-index: -1;
 }
 
-.social-icon {
-  resize: horizontal;
-  overflow: hidden;
-  width: 10%;
-  height: auto;
-}
-
 .mtop-5 {
   margin-top: 5%;
 }
@@ -102,7 +124,7 @@
 .wave-container {
   position: relative;
   width: 100%;
-  z-index: auto;
+  /*z-index: auto;*/
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -111,6 +133,7 @@
 .wave-prop {
   position: absolute;
   /* top: 5rem; */
+  z-index: -1;
   left: 0;
   width: 200%;
   animation: wave linear 15s infinite;
@@ -138,3 +161,67 @@
     transform: translateX(-50%);
   }
 }
+
+.social-items-flex-container{
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.socials{
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  top: 78%;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.social-icons-left {
+  resize: horizontal;
+  overflow: hidden;
+  width: 20%;
+  height: auto;
+  padding: 1rem;
+}
+
+.social-icons-right {
+  resize: horizontal;
+  overflow: hidden;
+  padding: 1rem;
+}
+
+.item-1 {
+  order: 1;
+}
+
+.item-2 {
+  order: 2
+}
+
+.item-3 {
+  order: 3;
+}
+
+.item-4 {
+  order: 4;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  /*height: 30px;*/
+  /*width: 100vw;*/
+  background: #20303f;
+}
+
+.vertical-center {
+  width: 100%;
+  height: auto;
+  margin-top: 10%;
+  /*margin-left: 5%;*/
+}
+

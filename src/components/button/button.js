@@ -1,4 +1,6 @@
 import React from 'react'
+import'./button.css'
+
 const buttonBg = {
     border: '5px solid black'
 };
